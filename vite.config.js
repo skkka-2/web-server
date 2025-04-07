@@ -62,6 +62,7 @@ const sassEmbedded = require('sass-embedded');
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [
     vue(),
     ElementPlus({ useSource: true }),
@@ -78,7 +79,7 @@ export default defineConfig({
           css: {
             preprocessorOptions: {
               scss: {
-                 additionalData: '$injectedColor: red;', // 确保路径正确
+                additionalData: '$injectedColor: red;', // 确保路径正确
               },
             },
           },
