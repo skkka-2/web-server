@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "git@github.com:skkka-2/web-server.git",
+  "homepage": "https://github.com/skkka-2/web-server.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
